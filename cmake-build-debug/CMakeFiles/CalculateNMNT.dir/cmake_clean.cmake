@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CalculateNMNT.dir/main.cpp.o"
+  "CMakeFiles/CalculateNMNT.dir/main.cpp.o.d"
   "CalculateNMNT"
   "CalculateNMNT.pdb"
 )

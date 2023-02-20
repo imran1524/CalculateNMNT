@@ -1,10 +1,11 @@
 #include <iostream>
+#include <math.h>
 
 using namespace std;
 
 //Global variables
-int p = 13;
-const auto N = 16;
+int p = 7;
+const auto N = 8;
 int Mp = (1 << p) - 1;
 int invN = (1 << p)/N; // invN = 2^p/N
 
@@ -30,7 +31,6 @@ int mod(int input, int Mp) {
 
 //Definition of calculateNMNTMatrix
 void calculateNMNTMatrix(int p1, int N1){
-
     int alpha1, alpha2;
     int alpha1_temp, alpha2_temp, alpha1_0, alpha2_0;
     int *beta1 = NULL, *beta2 = NULL, *beta = NULL;
